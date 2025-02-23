@@ -1,0 +1,8 @@
+[
+    "/static/js/app/layout.xml",
+    "/static/js/app/webclient/navbar.xml",
+    "/static/js/app/webclient/web_client.xml",
+    "/static/js/app/todoo/todoo.xml",
+    "/static/js/app/todoo/todo_list.xml",
+    "/static/js/app/todoo/todo_item.xml"
+]

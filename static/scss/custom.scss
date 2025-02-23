@@ -1,0 +1,12 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+@import "../bootstrap/scss/bootstrap";
+
+
+// Then add additional custom code here
+@import '/home/odoo/projects/odpm.web/static/js/app/webclient/navbar.scss';
+@import './blocks/todolist';

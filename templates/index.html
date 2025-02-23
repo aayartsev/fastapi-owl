@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>odpm.web</title>
+        <link rel="icon" href="data:,">
+        <link href="{{ url_for('static', path='/css/libs/bootstrap-icons.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', path='/css/custom.css') }}" rel="stylesheet">
+        <!-- <script src="{{ url_for('static', path='/js/libs/bootstrap.bundle.min.js') }}" defer></script> -->
+         <script src="static/js/libs/bootstrap.bundle.min.js" defer></script>
+         <script type="importmap">{{imports|tojson}}</script>
+        <!-- <script type="importmap">{"imports": { 
+               "@odoo/owl": "./static/js/libs/owl.js",
+               "@utils/translations": "./static/js/app/utils/translations.js",
+               "@webclient/web_client": "./static/js/app/webclient/web_client.js"
+               } 
+           }</script> -->
+    </head>
+
+    <body>
+        
+        <script type="module" src="{{ url_for('static', path='/js/app/app.js') }}" ></script>
+    </body>
+    
+</html>

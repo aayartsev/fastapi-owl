@@ -1,0 +1,32 @@
+
+
+.terminal {
+
+    &__output {
+        font-size: 0.9em;
+        font-family: 'Source Code Pro';
+        background-color: black;
+        width:100%; /* ширина нашего блока */
+        height:500px; /* высота нашего блока */
+        display: block;
+        overflow-x: scroll; /* прокрутка по горизонтали */
+        overflow-y: scroll; /* прокрутка по вертикали */
+        padding-bottom: 15px;
+        color: #f4f4f4; 
+
+        pre {
+            margin: 0;
+            overflow: unset;
+        }
+    }
+
+    &__process {
+        .is-hidden {
+            display: none;
+        }
+    }
+
+    &__input {
+        display: none !important;
+    }
+}
